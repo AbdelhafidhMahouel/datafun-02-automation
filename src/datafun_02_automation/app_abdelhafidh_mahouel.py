@@ -89,9 +89,7 @@ def create_files_from_numeric_range() -> None:
         filename: str = f"{NAME_PREFIX}_year_{year}.txt"
         path: Path = ROOT_DIR / filename
         content: str = (
-            "Automated yearly report\n"
-            "Author: Abdelhafidh Mahouel\n"
-            f"Year: {year}\n"
+            f"Automated yearly report\nAuthor: Abdelhafidh Mahouel\nYear: {year}\n"
         )
         write_text_file(path, content)
 
