@@ -23,8 +23,8 @@ These files are intended to be committed to Git as evidence of automation.
 # === DECLARE IMPORTS (BRING IN FREE CODE) ===
 
 import logging
-import time
 from pathlib import Path
+import time
 from typing import Final
 
 # External (must be listed in pyproject.toml)
