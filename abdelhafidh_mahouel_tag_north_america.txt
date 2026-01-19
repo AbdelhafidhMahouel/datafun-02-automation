@@ -1,0 +1,3 @@
+Transformed region tag file (automated)
+Tag: NORTH_AMERICA
+Original source: REGIONS list
